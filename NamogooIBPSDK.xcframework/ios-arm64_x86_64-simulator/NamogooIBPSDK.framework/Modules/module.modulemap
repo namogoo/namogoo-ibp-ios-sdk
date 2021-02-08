@@ -1,0 +1,11 @@
+framework module NamogooIBPSDK {
+  umbrella header "NamogooIBPSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module NamogooIBPSDK.Swift {
+    header "NamogooIBPSDK-Swift.h"
+    requires objc
+}
