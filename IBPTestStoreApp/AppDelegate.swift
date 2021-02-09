@@ -7,8 +7,6 @@
 
 import UIKit
 import NamogooIBPSDK
-import NewRelic
-import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,8 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        NewRelic.start(withApplicationToken: "AA4cb5975511545ee0cff81bdb1cf4891dca3e32f0-NRMA")
-        FirebaseApp.configure()
         NamogooIBP.shared.start(id: "MOQFHM369", sessionId: "123ios12", cartDelegate: DataManager.shared, referrer: nil, options: launchOptions)
         NamogooIBP.shared.automaticDisplayPermissions = AppDelegate.popupType == PopupType.sdkBased || AppDelegate.popupType == PopupType.both ? .allow : .block
         

@@ -5,8 +5,7 @@
 //  Created by Kali Spassov on 19/10/2020.
 //
 
-import Foundation
-import Alamofire
+import UIKit
 
 class APIManager {
     private struct URLs {
