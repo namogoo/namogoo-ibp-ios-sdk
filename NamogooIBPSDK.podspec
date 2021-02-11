@@ -23,8 +23,6 @@ DESC
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-s.vendored_frameworks = 'NamogooIBPSDK.xcframework'
-
-  # s.source_files = 'NamogooIBPSDK.{xcframework}'
+  s.vendored_frameworks = 'NamogooIBPSDK.xcframework'
   
 end
