@@ -19,11 +19,11 @@ DESC
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mngKali' => 'Kali.spassov@namogoo.com' }
-  s.source           = { :git => 'https://github.com/namogoo/namogoo-ibp-ios-sdk.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://github.com/namogoo/namogoo-ibp-ios-sdk/raw/0.1.2/Distribution/NamogooIBPSDK.xcframework.zip' } 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-s.vendored_frameworks = 'NamogooIBPSDK.xcframework'
+  s.vendored_frameworks = 'NamogooIBPSDK.xcframework'
 
   # s.source_files = 'NamogooIBPSDK.{xcframework}'
   
