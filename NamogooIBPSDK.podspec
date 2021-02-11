@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NamogooIBPSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Our NamogooIBPSDK helps eCommerce platforms give AI based incentives to their users.'
 
   s.description      = <<-DESC
