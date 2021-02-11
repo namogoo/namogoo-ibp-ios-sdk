@@ -17,7 +17,7 @@ DESC
 
   s.homepage         = 'https://github.com/namogoo/namogoo-ibp-ios-sdk.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'NamogooIBPSDK.xcframework/LICENSE' }
   s.author           = { 'mngKali' => 'Kali.spassov@namogoo.com' }
   s.source           = { :http => 'https://github.com/namogoo/namogoo-ibp-ios-sdk/raw/0.1.2/Distribution/NamogooIBPSDK.xcframework.zip' } 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
