@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
   s.summary          = 'Our NamogooIBPSDK helps eCommerce platforms give AI based incentives to their users.'
 
   s.description      = <<-DESC
-Namogoo is proud to present the iOS IBP SDK. With this SDK you can display AI based incentives to your customers. Please check us out at https://www.namogoo.com/intent-based-promotions/ to join, request a demo or set up your first campaign! The SDK supports iOS 11+ and uses Swift 5.1+ with Objc support.                       
+Welcome to Namogoo IBP's iOS SDK. With this SDK you can display AI based incentives to your customers. Please check us out at https://www.namogoo.com/intent-based-promotions/ to join, request a demo or set up your first campaign! The SDK supports iOS 11+ and uses Swift 5.1+ with full ObjectiveC support.                       
 DESC
 
   s.homepage         = 'https://github.com/namogoo/namogoo-ibp-ios-sdk.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mngKali' => 'Kali.spassov@namogoo.com' }
+  s.author           = { 'Namogoo Platform' => 'mobile.dev@namogoo.com' }
   s.source           = { :git => 'https://github.com/namogoo/namogoo-ibp-ios-sdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

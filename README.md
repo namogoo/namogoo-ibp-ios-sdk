@@ -7,9 +7,12 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, download or clone the repo, and run the IBPTestStoreApp.xcodeproj file.
 
 ## Requirements
+Swift 5.1+
+Xcode 11+
+Full Objective C support.
 
 ## Installation
 
@@ -19,10 +22,12 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'NamogooIBPSDK'
 ```
+Don't forget to run  `pod install` in your parent directory.
+
 
 ## Author
 
-mngKali, Kali.spassov@namogoo.com
+Namogoo Platform, mobile.dev@namogoo.com
 
 ## License
 
