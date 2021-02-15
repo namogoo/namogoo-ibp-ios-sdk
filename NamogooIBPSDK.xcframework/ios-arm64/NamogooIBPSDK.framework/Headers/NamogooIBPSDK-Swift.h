@@ -535,6 +535,13 @@ typedef SWIFT_ENUM(NSInteger, IBPEventType, open) {
 };
 
 
+SWIFT_CLASS("_TtC13NamogooIBPSDK12IBPIncentive")
+@interface IBPIncentive : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC13NamogooIBPSDK18IBPIncentiveStatus")
 @interface IBPIncentiveStatus : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -559,6 +566,19 @@ SWIFT_CLASS("_TtC13NamogooIBPSDK11ImageHasher")
 
 SWIFT_CLASS("_TtC13NamogooIBPSDK10NamogooIBP")
 @interface NamogooIBP : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NamogooIBP * _Nonnull shared;)
++ (NamogooIBP * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, weak) id <IBPCartDelegate> _Nullable cartDelegate;
+@property (nonatomic) enum IBPAutomaticDisplayPermission automaticDisplayPermissions;
+@property (nonatomic, copy) NSString * _Nullable sessionId;
+@property (nonatomic) BOOL enableLogging;
+@property (nonatomic, copy) NSString * _Nullable referrer;
+@property (nonatomic, copy) NSString * _Nullable customerId;
+@property (nonatomic, copy) NSString * _Nullable version;
+- (void)startWithId:(NSString * _Nonnull)vendorId sessionId:(NSString * _Nullable)sessionId cartDelegate:(id <IBPCartDelegate> _Nullable)cartDelegate referrer:(NSString * _Nullable)referrer options:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)options;
+- (void)reportEventWithType:(enum IBPEventType)event payload:(NSDictionary<NSString *, id> * _Nonnull)payload;
+- (void)reportOrderCompleted:(IBPOrderParams * _Nonnull)info;
+- (void)getIncentiveWithCompletionHandler:(void (^ _Nonnull)(IBPIncentive * _Nullable, IBPIncentiveStatus * _Nullable))newCompletionHandler;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

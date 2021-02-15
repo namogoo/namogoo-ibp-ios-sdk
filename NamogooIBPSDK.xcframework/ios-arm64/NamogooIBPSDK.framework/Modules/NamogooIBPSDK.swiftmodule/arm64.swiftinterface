@@ -21,30 +21,30 @@ import WebKit
   public init?(rawValue: Swift.String)
 }
 @_inheritsConvenienceInitializers @objc public class NamogooIBP : ObjectiveC.NSObject {
-  public static let shared: NamogooIBPSDK.NamogooIBP
-  weak public var cartDelegate: NamogooIBPSDK.IBPCartDelegate?
-  public var automaticDisplayPermissions: NamogooIBPSDK.IBPAutomaticDisplayPermission
-  public var sessionId: Swift.String? {
-    get
-    set
+  @objc public static let shared: NamogooIBPSDK.NamogooIBP
+  @objc weak public var cartDelegate: NamogooIBPSDK.IBPCartDelegate?
+  @objc public var automaticDisplayPermissions: NamogooIBPSDK.IBPAutomaticDisplayPermission
+  @objc public var sessionId: Swift.String? {
+    @objc get
+    @objc set
   }
-  public var enableLogging: Swift.Bool {
-    get
-    set
+  @objc public var enableLogging: Swift.Bool {
+    @objc get
+    @objc set
   }
-  public var referrer: Swift.String? {
-    get
-    set
+  @objc public var referrer: Swift.String? {
+    @objc get
+    @objc set
   }
-  public var customerId: Swift.String? {
-    get
-    set
+  @objc public var customerId: Swift.String? {
+    @objc get
+    @objc set
   }
-  public var version: Swift.String?
-  public func start(id vendorId: Swift.String, sessionId: Swift.String?, cartDelegate: NamogooIBPSDK.IBPCartDelegate?, referrer: Swift.String? = nil, options: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
-  public func reportEvent(type event: NamogooIBPSDK.IBPEventType, payload: [Swift.String : Any])
-  public func reportOrderCompleted(_ info: NamogooIBPSDK.IBPOrderParams)
-  public func getIncentive(completionHandler newCompletionHandler: @escaping (NamogooIBPSDK.IBPIncentive?, NamogooIBPSDK.IBPIncentiveStatus?) -> ())
+  @objc public var version: Swift.String?
+  @objc public func start(id vendorId: Swift.String, sessionId: Swift.String?, cartDelegate: NamogooIBPSDK.IBPCartDelegate?, referrer: Swift.String? = nil, options: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
+  @objc public func reportEvent(type event: NamogooIBPSDK.IBPEventType, payload: [Swift.String : Any])
+  @objc public func reportOrderCompleted(_ info: NamogooIBPSDK.IBPOrderParams)
+  @objc public func getIncentive(completionHandler newCompletionHandler: @escaping (NamogooIBPSDK.IBPIncentive?, NamogooIBPSDK.IBPIncentiveStatus?) -> ())
   public func displayIncentiveOverlay(inViewController vc: UIKit.UIViewController?)
   @objc deinit
   @objc override dynamic public init()
@@ -118,11 +118,13 @@ import WebKit
   }
   public init?(rawValue: NamogooIBPSDK.EventParamConsts.RawValue)
 }
-public struct IBPIncentive {
-  public let couponCode: Swift.String
-  public let discount: Swift.Double
-  public let expiration: Swift.Double
-  public let incentiveType: Swift.String
+@_hasMissingDesignatedInitializers @objc public class IBPIncentive : ObjectiveC.NSObject {
+  final public let couponCode: Swift.String
+  final public let discount: Swift.Double
+  final public let expiration: Swift.Double
+  final public let incentiveType: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
 }
 @objc public protocol IBPCartDelegate : AnyObject {
   @objc func getCartTotal() -> Swift.Double

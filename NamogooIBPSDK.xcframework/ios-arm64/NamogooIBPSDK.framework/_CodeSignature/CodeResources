@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/NamogooIBPSDK-Swift.h</key>
 		<data>
-		HBy99mSTY1nvD97LkNQTqIAIbNE=
+		Ben4oKJO/trL+wR5Ka0Z48EVWUg=
 		</data>
 		<key>Headers/NamogooIBPSDK.h</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AW/QiRo53Ub8JV7gzehulwu39NQ=
+		NI4LzGk8/9kpcW1w2D33WEhla2o=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zt4s3Y09bYxGuro0BA18msQ1BEA=
+		Z3C+A1Zolhle93C7m33HSD2EGgs=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		AW/QiRo53Ub8JV7gzehulwu39NQ=
+		NI4LzGk8/9kpcW1w2D33WEhla2o=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		zt4s3Y09bYxGuro0BA18msQ1BEA=
+		Z3C+A1Zolhle93C7m33HSD2EGgs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			opYWq4ky7wm0OdKSAR2BNJ2zsHaNLgrWKanD5ZtNYng=
+			Y68+yRG3Ip6AOgtQSdC1WpT4Ap/VPeRVy5bJkaNuwSc=
 			</data>
 		</dict>
 		<key>Headers/NamogooIBPSDK.h</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r7zNz0tdpy9x2MW7lnZkSKz2K49v0hdVweRPHVNLKbU=
+			2mFsXy6ZCAOhj+wfPTxIN5+HaVDho2TIeP9H3Sh+2LI=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XiGmiiGNKe1kDwq90Qmt1Opa5ZgFfpVrNHy55ggjwf8=
+			QEtcnwWDPS+2dxTa66ZQUaXxtxLRfXsN3MXxmv7lNgo=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftdoc</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r7zNz0tdpy9x2MW7lnZkSKz2K49v0hdVweRPHVNLKbU=
+			2mFsXy6ZCAOhj+wfPTxIN5+HaVDho2TIeP9H3Sh+2LI=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XiGmiiGNKe1kDwq90Qmt1Opa5ZgFfpVrNHy55ggjwf8=
+			QEtcnwWDPS+2dxTa66ZQUaXxtxLRfXsN3MXxmv7lNgo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
