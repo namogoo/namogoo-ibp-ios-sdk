@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NamogooIBPSDK
 import AVFoundation
 import CommonCrypto
@@ -20,11 +20,15 @@ import WebKit
   }
   public init?(rawValue: Swift.String)
 }
-@_hasMissingDesignatedInitializers public class NamogooIBP {
+@_inheritsConvenienceInitializers @objc public class NamogooIBP : ObjectiveC.NSObject {
   public static let shared: NamogooIBPSDK.NamogooIBP
   weak public var cartDelegate: NamogooIBPSDK.IBPCartDelegate?
   public var automaticDisplayPermissions: NamogooIBPSDK.IBPAutomaticDisplayPermission
   public var sessionId: Swift.String? {
+    get
+    set
+  }
+  public var enableLogging: Swift.Bool {
     get
     set
   }
@@ -43,6 +47,7 @@ import WebKit
   public func getIncentive(completionHandler newCompletionHandler: @escaping (NamogooIBPSDK.IBPIncentive?, NamogooIBPSDK.IBPIncentiveStatus?) -> ())
   public func displayIncentiveOverlay(inViewController vc: UIKit.UIViewController?)
   @objc deinit
+  @objc override dynamic public init()
 }
 @objc public class IBPOrderParams : ObjectiveC.NSObject {
   final public let orderId: Swift.String

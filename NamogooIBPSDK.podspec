@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NamogooIBPSDK'
-  s.version          = '0.1.3'
-  s.summary          = 'Our NamogooIBPSDK helps eCommerce platforms give AI based incentives to their users.'
+  s.version          = '0.1.4'
+  s.summary          = 'Our NamogooIBPSDK helps e-commerce sites give personal promotions to the site visitors, based on machine learning decisions.'
 
   s.description      = <<-DESC
-Welcome to Namogoo IBP's iOS SDK. With this SDK you can display AI based incentives to your customers. Please check us out at https://www.namogoo.com/intent-based-promotions/ to join, request a demo or set up your first campaign! The SDK supports iOS 11+ and uses Swift 5.1+ with full ObjectiveC support.                       
+Welcome to Namogoo IBP's iOS SDK. With this SDK you can display AI based incentives to your visitors. Please check us out at https://www.namogoo.com/intent-based-promotions/ to join, request a demo or set up your first campaign! The SDK supports iOS 11+ and uses Swift 5.1+ with full ObjectiveC support.                       
 DESC
 
   s.homepage         = 'https://github.com/namogoo/namogoo-ibp-ios-sdk.git'
