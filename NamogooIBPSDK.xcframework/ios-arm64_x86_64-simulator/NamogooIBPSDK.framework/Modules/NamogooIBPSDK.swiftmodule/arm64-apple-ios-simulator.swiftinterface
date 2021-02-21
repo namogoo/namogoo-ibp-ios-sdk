@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NamogooIBPSDK
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NamogooIBPSDK
 import AVFoundation
 import CommonCrypto
 import CoreBluetooth
@@ -41,21 +41,21 @@ import WebKit
     @objc set
   }
   @objc public var version: Swift.String?
-  @objc public func start(id vendorId: Swift.String, sessionId: Swift.String?, cartDelegate: NamogooIBPSDK.IBPCartDelegate?, referrer: Swift.String? = nil, options: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
+  @objc public func start(id vendorId: Swift.String, customerId: Swift.String?, sessionId: Swift.String?, cartDelegate: NamogooIBPSDK.IBPCartDelegate?, referrer: Swift.String? = nil, options: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
   @objc public func reportEvent(type event: NamogooIBPSDK.IBPEventType, payload: [Swift.String : Any])
   @objc public func reportOrderCompleted(_ info: NamogooIBPSDK.IBPOrderParams)
   @objc public func getIncentive(completionHandler newCompletionHandler: @escaping (NamogooIBPSDK.IBPIncentive?, NamogooIBPSDK.IBPIncentiveStatus?) -> ())
-  public func displayIncentiveOverlay(inViewController vc: UIKit.UIViewController?)
+  @objc public func displayIncentiveOverlay(inViewController vc: UIKit.UIViewController?)
   @objc deinit
   @objc override dynamic public init()
 }
 @objc public class IBPOrderParams : ObjectiveC.NSObject {
-  final public let orderId: Swift.String
-  final public let couponsUsed: [Swift.String]
-  final public let taxCost: Swift.Double
-  final public let shippingCost: Swift.Double
-  final public let payload: [Swift.String : Any]
-  public init(orderId: Swift.String, couponsUsed: [Swift.String], taxCost: Swift.Double, shippingCost: Swift.Double, payload: [Swift.String : Any])
+  @objc final public let orderId: Swift.String
+  @objc final public let couponsUsed: [Swift.String]
+  @objc final public let taxCost: Swift.Double
+  @objc final public let shippingCost: Swift.Double
+  @objc final public let payload: [Swift.String : Any]
+  @objc public init(orderId: Swift.String, couponsUsed: [Swift.String], taxCost: Swift.Double, shippingCost: Swift.Double, payload: [Swift.String : Any])
   @objc deinit
   @objc override dynamic public init()
 }
@@ -85,27 +85,27 @@ import WebKit
   @objc deinit
   @objc override dynamic public init()
 }
-@_inheritsConvenienceInitializers @objc public class EventTypeConverter : ObjectiveC.NSObject {
-  @objc public static func eventNameFrom(_ event: NamogooIBPSDK.EventType) -> Swift.String
+@_inheritsConvenienceInitializers @objc public class IBPEventTypeConverter : ObjectiveC.NSObject {
+  @objc public static func eventNameFrom(_ event: NamogooIBPSDK.IBPInternalEventType) -> Swift.String
   @objc deinit
   @objc override dynamic public init()
 }
-@objc public enum EventType : Swift.Int, Swift.RawRepresentable {
+@objc public enum IBPInternalEventType : Swift.Int, Swift.RawRepresentable {
   case componentInit, componentForeground, componentBackground, componentRemovedFromVisualHeirarchy, componentAddedToVisualHeirarchy, appActive, appBackground, appForeground, appInit, appInactive, appMemoryWarning, appDestroyed, appOpenedFromUrl
   case actionSent, buttonTapped, pickerSelected, textFieldEntered, gestureLocation, gestureCaptured, urlGenerated, keyboardShow, keyboardHide, labelTextSet
   case vendorEvent
   public typealias RawValue = Swift.String
-  public var rawValue: NamogooIBPSDK.EventType.RawValue {
+  public var rawValue: NamogooIBPSDK.IBPInternalEventType.RawValue {
     get
   }
-  public init?(rawValue: NamogooIBPSDK.EventType.RawValue)
+  public init?(rawValue: NamogooIBPSDK.IBPInternalEventType.RawValue)
 }
-@_inheritsConvenienceInitializers @objc public class EventsDispatcher : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class IBPEventsDispatcher : ObjectiveC.NSObject {
   @objc public static func injectEvent(_ type: NamogooIBPSDK.SwizzleLogObject)
   @objc deinit
   @objc override dynamic public init()
 }
-@_inheritsConvenienceInitializers @objc public class EventParamConverter : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class IBPEventParamConverter : ObjectiveC.NSObject {
   @objc public static func paramName(_ event: NamogooIBPSDK.EventParamConsts) -> Swift.String
   @objc deinit
   @objc override dynamic public init()
@@ -119,10 +119,10 @@ import WebKit
   public init?(rawValue: NamogooIBPSDK.EventParamConsts.RawValue)
 }
 @_hasMissingDesignatedInitializers @objc public class IBPIncentive : ObjectiveC.NSObject {
-  final public let couponCode: Swift.String
-  final public let discount: Swift.Double
-  final public let expiration: Swift.Double
-  final public let incentiveType: Swift.String
+  @objc final public let couponCode: Swift.String
+  @objc final public let discount: Swift.Double
+  @objc final public let expiration: Swift.Double
+  @objc final public let incentiveType: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
@@ -133,7 +133,7 @@ import WebKit
   @objc func getCartItems() -> [NamogooIBPSDK.IBPCartItem]
 }
 @objc public class IBPCartItem : ObjectiveC.NSObject {
-  public init(SKU: Swift.String, orderedAmount: Swift.Int, categories: [Swift.String]?, itemCost: Swift.Double)
+  @objc public init(SKU: Swift.String, orderedAmount: Swift.Int, categories: [Swift.String]?, itemCost: Swift.Double)
   @objc deinit
   @objc override dynamic public init()
 }
@@ -183,12 +183,12 @@ import WebKit
   @objc deinit
   @objc override dynamic public init()
 }
-@_inheritsConvenienceInitializers @objc(Cart) public class Cart : CoreData.NSManagedObject {
+@_inheritsConvenienceInitializers @objc(IBPCart) public class IBPCart : CoreData.NSManagedObject {
   @objc deinit
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
 }
-extension Cart {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.Cart>
+extension IBPCart {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.IBPCart>
   @objc @NSManaged dynamic public var date: Foundation.Date? {
     @objc get
     @objc set
@@ -214,12 +214,12 @@ extension Cart {
     @objc set
   }
 }
-@_inheritsConvenienceInitializers @objc(Event) public class Event : CoreData.NSManagedObject {
+@_inheritsConvenienceInitializers @objc(IBPEvent) public class IBPEvent : CoreData.NSManagedObject {
   @objc deinit
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
 }
-extension Event {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.Event>
+extension IBPEvent {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.IBPEvent>
   @objc @NSManaged dynamic public var id: Swift.String? {
     @objc get
     @objc set
@@ -228,7 +228,7 @@ extension Event {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var sessionid: Swift.String? {
+  @objc @NSManaged dynamic public var sessionId: Swift.String? {
     @objc get
     @objc set
   }
@@ -245,12 +245,12 @@ extension Event {
     @objc set
   }
 }
-@_inheritsConvenienceInitializers @objc(PreviousValidCart) public class PreviousValidCart : CoreData.NSManagedObject {
+@_inheritsConvenienceInitializers @objc(IBPPreviousValidCart) public class IBPPreviousValidCart : CoreData.NSManagedObject {
   @objc deinit
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
 }
-extension PreviousValidCart {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.PreviousValidCart>
+extension IBPPreviousValidCart {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.IBPPreviousValidCart>
   @objc @NSManaged dynamic public var getAmountInCart: Swift.Int64 {
     @objc get
     @objc set
@@ -268,12 +268,12 @@ extension PreviousValidCart {
     @objc set
   }
 }
-@_inheritsConvenienceInitializers @objc(SessionTime) public class SessionTime : CoreData.NSManagedObject {
+@_inheritsConvenienceInitializers @objc(IBPSessionTime) public class IBPSessionTime : CoreData.NSManagedObject {
   @objc deinit
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
 }
-extension SessionTime {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.SessionTime>
+extension IBPSessionTime {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.IBPSessionTime>
   @objc @NSManaged dynamic public var sessionEnd: Swift.Double {
     @objc get
     @objc set
@@ -287,12 +287,12 @@ extension SessionTime {
     @objc set
   }
 }
-@_inheritsConvenienceInitializers @objc(ViewControllerTime) public class ViewControllerTime : CoreData.NSManagedObject {
+@_inheritsConvenienceInitializers @objc(IBPViewControllerTime) public class IBPViewControllerTime : CoreData.NSManagedObject {
   @objc deinit
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
 }
-extension ViewControllerTime {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.ViewControllerTime>
+extension IBPViewControllerTime {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NamogooIBPSDK.IBPViewControllerTime>
   @objc @NSManaged dynamic public var classIdentifier: Swift.String? {
     @objc get
     @objc set
@@ -322,8 +322,8 @@ extension NamogooIBPSDK.IBPErrorType : Swift.RawRepresentable {}
 extension NamogooIBPSDK.IBPAutomaticDisplayPermission : Swift.Equatable {}
 extension NamogooIBPSDK.IBPAutomaticDisplayPermission : Swift.Hashable {}
 extension NamogooIBPSDK.IBPAutomaticDisplayPermission : Swift.RawRepresentable {}
-extension NamogooIBPSDK.EventType : Swift.Equatable {}
-extension NamogooIBPSDK.EventType : Swift.Hashable {}
+extension NamogooIBPSDK.IBPInternalEventType : Swift.Equatable {}
+extension NamogooIBPSDK.IBPInternalEventType : Swift.Hashable {}
 extension NamogooIBPSDK.EventParamConsts : Swift.Equatable {}
 extension NamogooIBPSDK.EventParamConsts : Swift.Hashable {}
 extension NamogooIBPSDK.IBPCurrency : Swift.Equatable {}

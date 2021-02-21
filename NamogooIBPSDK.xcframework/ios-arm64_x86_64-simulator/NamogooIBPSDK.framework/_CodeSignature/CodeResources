@@ -4,14 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Event.momd/Event.mom</key>
-		<data>
-		XhHVv6VBRE212kbefHJ2e2zPCSk=
-		</data>
-		<key>Event.momd/VersionInfo.plist</key>
-		<data>
-		DWpmDtU9IFhKItzY18a06z6HXoo=
-		</data>
 		<key>Headers/CPUStats.h</key>
 		<data>
 		UdP87HTbxNlHpGCb5fnqTH5mnXw=
@@ -22,7 +14,7 @@
 		</data>
 		<key>Headers/NamogooIBPSDK-Swift.h</key>
 		<data>
-		Ben4oKJO/trL+wR5Ka0Z48EVWUg=
+		gAWy+1MggSRMFgryGoo1ZRHwtEY=
 		</data>
 		<key>Headers/NamogooIBPSDK.h</key>
 		<data>
@@ -40,33 +32,65 @@
 		<data>
 		ou5aceOp7MYrTcTswVFg63r7pW0=
 		</data>
+		<key>IBPCoreDataModels.momd/IBPCoreDataModels.mom</key>
+		<data>
+		RHkCUGCrLhzSyIiBapTovBK8nCk=
+		</data>
+		<key>IBPCoreDataModels.momd/VersionInfo.plist</key>
+		<data>
+		KIDUWkk17ZxDStoOOR5YFRdyp9U=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		EJEGp6P9RZnhnWlk34J2QyHF/fQ=
+		GuG/j9JheKP7+uBIunKm5vNiUKY=
+		</data>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		QBI1NNxUacM2imk9/ScpN2yvv/0=
+		</data>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		ZZWpege7FpHPOXNQbvP+9tFYGWY=
+		</data>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		JaZI+i2gOloQwtsahq2/VNKQxfQ=
+		</data>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		QBI1NNxUacM2imk9/ScpN2yvv/0=
+		</data>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		ZZWpege7FpHPOXNQbvP+9tFYGWY=
+		</data>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		JaZI+i2gOloQwtsahq2/VNKQxfQ=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NBzt5s3TeZpcqc022p50XGD3bwc=
+		7CM+t4wO09lkqsoCzrBI1QCsGIg=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dqpK2nFP0QFLWL5+JcwiNA+Ifyg=
+		07fQfwpX1HXxV+aQykYdxZTNFoA=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xBd4tudABfDhH76aQBtot0HCI2Q=
+		DbW1AE+ANXDuda0OR6bhsLrwDvU=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		NBzt5s3TeZpcqc022p50XGD3bwc=
+		7CM+t4wO09lkqsoCzrBI1QCsGIg=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		dqpK2nFP0QFLWL5+JcwiNA+Ifyg=
+		07fQfwpX1HXxV+aQykYdxZTNFoA=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		xBd4tudABfDhH76aQBtot0HCI2Q=
+		DbW1AE+ANXDuda0OR6bhsLrwDvU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,20 +99,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Event.momd/Event.mom</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rBCdQEp+tFMMcuSR3zlyXANBZm6VFPBKfgN516ranrA=
-			</data>
-		</dict>
-		<key>Event.momd/VersionInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0jIa+/wDAwcfN+HCk3TwZjaFKcMgIn35Nqvx92ADEjk=
-			</data>
-		</dict>
 		<key>Headers/CPUStats.h</key>
 		<dict>
 			<key>hash2</key>
@@ -107,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y68+yRG3Ip6AOgtQSdC1WpT4Ap/VPeRVy5bJkaNuwSc=
+			1m+UGYkr62faKu1QwfiPHD/w93Gdsv6bq4uXAfQdYJI=
 			</data>
 		</dict>
 		<key>Headers/NamogooIBPSDK.h</key>
@@ -138,46 +148,102 @@
 			E/tLL8NsMlR+GyaQjIWE7Hx71hHSE8WU7Fj+pp7ZMfs=
 			</data>
 		</dict>
+		<key>IBPCoreDataModels.momd/IBPCoreDataModels.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UMam3odA3FZaPFybvRywaoZViqDlYmgDPTBAf8c+eJc=
+			</data>
+		</dict>
+		<key>IBPCoreDataModels.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6ao7jyMO0xT+4ce1lDxN00j1iVfv9Ikpm3dKbXKc0gs=
+			</data>
+		</dict>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			df3EZgGMQny558S5n6JvWr7VFBFTT9pK++sMMnrkmu8=
+			</data>
+		</dict>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tIbJ4KOhvCtth8RRFXTgyiq0T8v23LaTec5NXtF0rhI=
+			</data>
+		</dict>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A/85pjJIHEtaldD2qrSIj/bus3I/Rhiq844KjBylpp8=
+			</data>
+		</dict>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			df3EZgGMQny558S5n6JvWr7VFBFTT9pK++sMMnrkmu8=
+			</data>
+		</dict>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tIbJ4KOhvCtth8RRFXTgyiq0T8v23LaTec5NXtF0rhI=
+			</data>
+		</dict>
+		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A/85pjJIHEtaldD2qrSIj/bus3I/Rhiq844KjBylpp8=
+			</data>
+		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wi4YlFpCyuA/GLD7aHhGU7G0sPdnJkBTkEp0kzPxgNk=
+			WHnpEbpHxJvUNSdqE3hRW5lX5BjM0Os8KY0BbJPSBNI=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SvT/X/WnMWR+rppZ6RNH/dLKtphoCWeIihrytOAgNvA=
+			DIFB0xzuoQF2pLj35pc69bWC4u3hiKg1p8gGopCWgRU=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gVUBj7Jodh3w62Vy/qsyppyL9iGsThMGE+qwMCUg6Gs=
+			l3+fusbjX6BXEz2g/hdqzRjmQUn8UM08+sWc3W2jQGg=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wi4YlFpCyuA/GLD7aHhGU7G0sPdnJkBTkEp0kzPxgNk=
+			WHnpEbpHxJvUNSdqE3hRW5lX5BjM0Os8KY0BbJPSBNI=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SvT/X/WnMWR+rppZ6RNH/dLKtphoCWeIihrytOAgNvA=
+			DIFB0xzuoQF2pLj35pc69bWC4u3hiKg1p8gGopCWgRU=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gVUBj7Jodh3w62Vy/qsyppyL9iGsThMGE+qwMCUg6Gs=
+			l3+fusbjX6BXEz2g/hdqzRjmQUn8UM08+sWc3W2jQGg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

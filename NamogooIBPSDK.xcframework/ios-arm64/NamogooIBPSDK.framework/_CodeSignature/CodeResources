@@ -4,14 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Event.momd/Event.mom</key>
-		<data>
-		XhHVv6VBRE212kbefHJ2e2zPCSk=
-		</data>
-		<key>Event.momd/VersionInfo.plist</key>
-		<data>
-		DWpmDtU9IFhKItzY18a06z6HXoo=
-		</data>
 		<key>Headers/CPUStats.h</key>
 		<data>
 		UdP87HTbxNlHpGCb5fnqTH5mnXw=
@@ -22,7 +14,7 @@
 		</data>
 		<key>Headers/NamogooIBPSDK-Swift.h</key>
 		<data>
-		Ben4oKJO/trL+wR5Ka0Z48EVWUg=
+		90jKwfo7cixePDvhd/8pMcp7Ff0=
 		</data>
 		<key>Headers/NamogooIBPSDK.h</key>
 		<data>
@@ -40,33 +32,41 @@
 		<data>
 		ou5aceOp7MYrTcTswVFg63r7pW0=
 		</data>
+		<key>IBPCoreDataModels.momd/IBPCoreDataModels.mom</key>
+		<data>
+		RHkCUGCrLhzSyIiBapTovBK8nCk=
+		</data>
+		<key>IBPCoreDataModels.momd/VersionInfo.plist</key>
+		<data>
+		KIDUWkk17ZxDStoOOR5YFRdyp9U=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		VakiNWCsacEpQ5HRTHbogbcTFUo=
+		MO42LOFl3viyXItEF3iP/CQ9nvM=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		tqqC4LXGUSrNOrVzEzLjCZ5+y5M=
+		Kk84prswzgu+SY7mKZdstbEGxGc=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NI4LzGk8/9kpcW1w2D33WEhla2o=
+		mkdBONzsPQak9+mwJjfidKY/lbY=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Z3C+A1Zolhle93C7m33HSD2EGgs=
+		/ag+0babgYRy3VKb8MRd8gquMGg=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		tqqC4LXGUSrNOrVzEzLjCZ5+y5M=
+		Kk84prswzgu+SY7mKZdstbEGxGc=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		NI4LzGk8/9kpcW1w2D33WEhla2o=
+		mkdBONzsPQak9+mwJjfidKY/lbY=
 		</data>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Z3C+A1Zolhle93C7m33HSD2EGgs=
+		/ag+0babgYRy3VKb8MRd8gquMGg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,20 +75,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Event.momd/Event.mom</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rBCdQEp+tFMMcuSR3zlyXANBZm6VFPBKfgN516ranrA=
-			</data>
-		</dict>
-		<key>Event.momd/VersionInfo.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0jIa+/wDAwcfN+HCk3TwZjaFKcMgIn35Nqvx92ADEjk=
-			</data>
-		</dict>
 		<key>Headers/CPUStats.h</key>
 		<dict>
 			<key>hash2</key>
@@ -107,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y68+yRG3Ip6AOgtQSdC1WpT4Ap/VPeRVy5bJkaNuwSc=
+			a+uw/nNN/Va1W3EgDRUml42CLjDSyABXuIYQcSQUchg=
 			</data>
 		</dict>
 		<key>Headers/NamogooIBPSDK.h</key>
@@ -138,46 +124,60 @@
 			E/tLL8NsMlR+GyaQjIWE7Hx71hHSE8WU7Fj+pp7ZMfs=
 			</data>
 		</dict>
+		<key>IBPCoreDataModels.momd/IBPCoreDataModels.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UMam3odA3FZaPFybvRywaoZViqDlYmgDPTBAf8c+eJc=
+			</data>
+		</dict>
+		<key>IBPCoreDataModels.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6ao7jyMO0xT+4ce1lDxN00j1iVfv9Ikpm3dKbXKc0gs=
+			</data>
+		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hqWk4QyVENGfKYlse3UIrfDhnQUmhpF7D+q+PDXOOn8=
+			wOJtoOhwIA+Rrja2PMyJZTP8bN5ZIXN+bzCQVdjNKBs=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2mFsXy6ZCAOhj+wfPTxIN5+HaVDho2TIeP9H3Sh+2LI=
+			JlbG7lL1gsVdTtELBqkglV++ibcY4/kZnLIy5U7vkr0=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QEtcnwWDPS+2dxTa66ZQUaXxtxLRfXsN3MXxmv7lNgo=
+			20CscHnHAlnpl/bOs2S2XNKuB2gem9nZYeds/a0WxJ4=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hqWk4QyVENGfKYlse3UIrfDhnQUmhpF7D+q+PDXOOn8=
+			wOJtoOhwIA+Rrja2PMyJZTP8bN5ZIXN+bzCQVdjNKBs=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2mFsXy6ZCAOhj+wfPTxIN5+HaVDho2TIeP9H3Sh+2LI=
+			JlbG7lL1gsVdTtELBqkglV++ibcY4/kZnLIy5U7vkr0=
 			</data>
 		</dict>
 		<key>Modules/NamogooIBPSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QEtcnwWDPS+2dxTa66ZQUaXxtxLRfXsN3MXxmv7lNgo=
+			20CscHnHAlnpl/bOs2S2XNKuB2gem9nZYeds/a0WxJ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
